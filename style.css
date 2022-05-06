@@ -1,0 +1,189 @@
+html, body, div, p
+{
+    margin: 0;
+	padding: 0;
+	border: 0;
+    outline: 0;
+}
+
+body {
+    background-color: #002C53;
+}
+
+.book_header
+{
+    background-color: black;
+    color:white;
+
+    margin: 2.0%;
+    text-align: center;
+
+    padding-top: auto;
+    padding-bottom: auto;
+
+    font-size: 3em;
+
+    height: 10em;
+}
+
+.chapter_image
+{
+    margin: 4% 2% 0% 2%;
+    font-size: 0;
+    background-color: #F4F4F4;
+
+    border-style: solid;
+    border-width: 1px;
+}
+
+.chapter_image > img
+{
+    width: 100%;
+    object-fit: cover;
+}
+
+.chapter {
+    background-color: #F4F4F4;
+    font-family: 'DejaVu Sans';
+
+    margin: 0 2% 2% 2%;
+    padding: 2.0%;
+
+    font-size: 1.25em;
+    text-align: justify;
+
+    border-style: solid;
+    border-width: 1px;
+    box-shadow: 10px 10px 3px #B7B7B7;
+}
+
+/* .test:hover
+{
+    animation-duration: 3s;
+    animation-name: slidein;
+}
+
+@keyframes slidein {
+    from {
+        width: 25%;
+    }
+  
+    to {
+        width: 50%;
+    }
+  } */
+  
+.header
+{
+    padding-bottom: 0.5%;
+
+    font-size: 200%;
+    border-bottom-style: solid;
+    border-bottom-width: 2px;
+}
+
+.citation
+{
+    background-color: #424550;
+    color: antiquewhite;
+
+    box-shadow: 1px 1px 7px #505050;
+
+    padding: 2.0%;
+    margin-left: auto;
+    margin-right: auto;
+
+    margin-top: 2%;
+    margin-bottom: 2%;
+
+    border-style: solid;
+    border-width: 3px;
+
+    width: 60%;
+    font-size: 0.9em;
+
+}
+
+.inline_citation
+{
+    background-color: #424550;
+    color: antiquewhite;
+
+    padding: 0.25%;
+    margin: 0.25%;
+
+    /* display: inline-block; */
+}
+
+p {
+    margin-top: 1.5%;
+    text-indent: 1.5em;
+}
+
+.first_paragraph::first-letter {
+    font-size: 200%;
+    background-color: #424550;
+    color: antiquewhite;
+    padding: 0.4%;
+    padding-top: 0.1%;
+    padding-bottom: 0.1%;
+    margin: 0.2%;
+}
+
+.grid-2-2
+{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    
+    grid-row-gap:    5%;
+    grid-column-gap: 1%;
+
+    margin-top: 2%;
+    margin-bottom: 4%;
+}
+
+.grid-2-2 > p
+{
+    margin: 2% 2% 2% 2%;
+
+    height:fit-content;
+    width: 90%;
+
+    margin-top: auto;
+    margin-bottom: auto;
+}
+
+.full_row22
+{
+    grid-column-start: 1;
+    grid-column-end:   3;
+}
+
+.picture
+{
+    float: right;
+    padding: 0.5%;
+    margin: 2% 0% 1% 2%;
+
+    background-color: antiquewhite;
+    width: 50%;
+
+    border-style: solid;
+    border-width: 1px;
+    font-size: 0;
+}
+
+.picture > img
+{
+    width: 100%; 
+    height: auto; 
+}
+
+table
+{
+    width: 40%;
+    margin-top: 2%;
+    margin-bottom: 2%; 
+    margin-left: auto;
+    margin-right: auto;
+}
