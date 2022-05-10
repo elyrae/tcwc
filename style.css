@@ -12,18 +12,37 @@ body {
 
 .book_header
 {
-    background-color: black;
-    color:white;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
 
+    background-color: #E0E0E0;
+    color:black;
+
+    padding: 2.0%;
     margin: 2.0%;
     text-align: center;
 
-    padding-top: auto;
     padding-bottom: auto;
 
-    font-size: 3em;
+    font-size: 2em;
 
-    height: 10em;
+    height: fit-content;
+}
+
+.test_test
+{
+    transform: translate(-150px, 200px) rotate(0.1turn);
+}
+
+.book_author
+{
+    padding: 2%;
+    color: red;
+}
+
+.author_image
+{
+    /**/
 }
 
 .chapter_image
@@ -34,6 +53,7 @@ body {
 
     border-style: solid;
     border-width: 1px;
+    box-shadow: 7px 7px 5px #B7B7B7;
 }
 
 .chapter_image > img
@@ -51,27 +71,12 @@ body {
 
     font-size: 1.25em;
     text-align: justify;
+    hyphens: auto;
 
     border-style: solid;
     border-width: 1px;
-    box-shadow: 10px 10px 3px #B7B7B7;
+    box-shadow: 7px 7px 5px #B7B7B7;
 }
-
-/* .test:hover
-{
-    animation-duration: 3s;
-    animation-name: slidein;
-}
-
-@keyframes slidein {
-    from {
-        width: 25%;
-    }
-  
-    to {
-        width: 50%;
-    }
-  } */
   
 .header
 {
@@ -101,7 +106,7 @@ body {
 
     width: 60%;
     font-size: 0.9em;
-
+    hyphens: auto;
 }
 
 .inline_citation
@@ -115,7 +120,7 @@ body {
     /* display: inline-block; */
 }
 
-p {
+.chapter > p {
     margin-top: 1.5%;
     text-indent: 1.5em;
 }
@@ -171,6 +176,12 @@ p {
     border-style: solid;
     border-width: 1px;
     font-size: 0;
+}
+
+.to_left
+{
+    float: left;
+    margin: 2% 2% 1% 0%;
 }
 
 .picture > img
