@@ -111,6 +111,11 @@ ol > li
     border-bottom-width: 2px;
 }
 
+.small_header
+{
+    font-size: 175%;
+}
+
 /*  */
 .citation
 {
@@ -153,18 +158,18 @@ ol > li
 .chapter > p {
     word-spacing: 100%;
 
-    margin-top: 1.25em;
-    text-indent: 2.0em;
+    margin-top: 1.4em;
+    text-indent: 2.2em;
 }
 
 .first_paragraph::first-letter {
     font-size: 200%;
     background-color: #424550;
     color: antiquewhite;
-    padding: 0.4%;
-    padding-top: 0.1%;
-    padding-bottom: 0.1%;
-    margin: 0.2%;
+    padding: 0.1em;
+    padding-top: 0.1em;
+    padding-bottom: 0.1em;
+    margin: 0.1em;
 }
 
 .grid-2-2
