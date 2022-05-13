@@ -8,9 +8,10 @@ html, body, div, p
 
 body {
     background-color: #002C53;
-    font-family: 'DejaVu Sans';
+    font-family: 'DejaVu Sans', sans-serif;
 }
 
+/* ТИТУЛЬНАЯ СТРАНИЦА */
 .book_header
 {
     display: grid;
@@ -58,6 +59,11 @@ ol > li
     font-size: 1.3em;
 }
 
+
+
+
+/* ОСНОВНАЯ ЧАСТЬ */
+/*  */
 .chapter_image
 {
     margin: 4% 2% 0% 2%;
@@ -75,6 +81,7 @@ ol > li
     object-fit: cover;
 }
 
+/*  */
 .chapter {
     background-color: #F4F4F4;
 
@@ -92,8 +99,11 @@ ol > li
     border-style: solid;
     border-width: 1px;
     box-shadow: 7px 7px 5px #B7B7B7;
+
+    word-spacing: 100%;
 }
   
+/*  */
 .header
 {
     padding-bottom: 0.5%;
@@ -103,6 +113,7 @@ ol > li
     border-bottom-width: 2px;
 }
 
+/*  */
 .citation
 {
     background-color: #424550;
@@ -120,7 +131,7 @@ ol > li
     border-style: solid;
     border-width: 3px;
 
-    width: 60%;
+    width: 90%;
     font-size: 0.9em;
 
     hyphens: auto;
@@ -129,6 +140,7 @@ ol > li
     -ms-hyphens: auto;
 }
 
+/*  */
 .inline_citation
 {
     background-color: #424550;
@@ -141,8 +153,8 @@ ol > li
 }
 
 .chapter > p {
-    margin-top: 1.5%;
-    text-indent: 1.5em;
+    margin-top: 1.25em;
+    text-indent: 2.0em;
 }
 
 .first_paragraph::first-letter {
@@ -189,16 +201,17 @@ ol > li
 
 .picture
 {
+    display: block;
     float: right;
     padding: 0.5%;
-    margin: 2% 0% 1% 2%;
+    margin: 1em 0% 1em 2em;
 
     background-color: antiquewhite;
     width: 50%;
 
     border-style: solid;
     border-width: 1px;
-    font-size: 0;
+    /* font-size: 0; */
 }
 
 .to_left
@@ -220,4 +233,17 @@ table
     margin-bottom: 2%; 
     margin-left: auto;
     margin-right: auto;
+}
+
+@media only screen and (max-width: 480px) {
+    .header
+    {
+        font-size: 125%;
+        hyphens: auto;
+    }
+
+    .picture {
+        margin: 1em 0 1em 0;
+        width: auto;
+    }
 }
