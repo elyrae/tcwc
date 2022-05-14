@@ -109,6 +109,8 @@ ol > li
     font-size: 200%;
     border-bottom-style: solid;
     border-bottom-width: 2px;
+
+    text-align: left;
 }
 
 
@@ -246,8 +248,14 @@ table
     }
 
     .picture {
+        float: none;
         margin: 1em auto 1em 0;
         width: auto;
+    }
+
+    .to_left
+    {
+        float: none;
     }
 
     .citation
