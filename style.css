@@ -113,6 +113,26 @@ ol > li
     text-align: left;
 }
 
+
+/*  */
+.inline_citation
+{
+    background-color: #424550;
+    color: antiquewhite;
+
+    padding: 0.25%;
+    margin: 0.25%;
+
+    /* display: inline-block; */
+}
+
+.chapter > p {
+    word-spacing: 100%;
+
+    margin-top: 1.5em;
+    text-indent: 2.2em;
+}
+
 /*  */
 .citation
 {
@@ -134,30 +154,12 @@ ol > li
 
     /* width: 90%; */
     /* font-size: 0.9em; */
+    text-indent: 0;
 
     hyphens: auto;
     -webkit-hyphens: auto;
     -moz-hyphens: auto;
     -ms-hyphens: auto;
-}
-
-/*  */
-.inline_citation
-{
-    background-color: #424550;
-    color: antiquewhite;
-
-    padding: 0.25%;
-    margin: 0.25%;
-
-    /* display: inline-block; */
-}
-
-.chapter > p {
-    word-spacing: 100%;
-
-    margin-top: 1.5em;
-    text-indent: 2.2em;
 }
 
 .first_paragraph::first-letter {
