@@ -240,6 +240,12 @@ table
     margin-right: auto;
 }
 
+.superscript
+{
+    vertical-align: super;
+    font-size: 0.7em;
+}
+
 @media only screen and (max-width: 1024px) {
     .header
     {
@@ -264,12 +270,13 @@ table
     }
 
     .chapter > p {
+        margin-top: 2.0em;
         text-indent: 2.5em;
     }
 
     .small_header
     {
-        font-size: 175%;
+        font-size: 150%;
     }
     
 }
