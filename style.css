@@ -126,7 +126,7 @@ ol > li
     /* display: inline-block; */
 }
 
-.chapter > p {
+.chapter > .paragraph {
     word-spacing: 100%;
 
     margin-top: 1.5em;
@@ -146,8 +146,8 @@ ol > li
     margin-left: -2%;
     margin-right: -2%;
 
-    margin-top: 1em;
-    margin-bottom: 1em;
+    margin-top: 1.5em;
+    /* margin-bottom: 1em; */
 
     /* border-style: solid;
     border-width: 2px 0 2px 0; */
@@ -215,12 +215,17 @@ ol > li
     /* padding: 0.5%; */
     margin: 1.4em 0 1em 1em;
 
-    background-color: antiquewhite;
+    /* background-color: antiquewhite; */
     width: 50%;
 
-    border-style: solid;
-    border-width: 1px;
+    /* border-style: solid;
+    border-width: 1px; */
     /* font-size: 0; */
+}
+
+.picture_description
+{
+    padding: 0.5em 1em 0.5em 1em;
 }
 
 .to_left
@@ -261,7 +266,7 @@ table
 
     .picture {
         float: none;
-        margin: 1em auto 1em 0;
+        margin: 1em -2% 1em -2%;
         width: auto;
     }
 
