@@ -12,7 +12,28 @@ body {
 }
 
 /* ТИТУЛЬНАЯ СТРАНИЦА */
-.book_header
+.book_header_inner
+{    
+    background-color: #424550;
+    background-color: #30333B;
+    color: antiquewhite;
+
+    padding-left: 5%;
+    padding-top: 0.5em;
+    padding-bottom: 0.5em;
+
+
+    font-size: 3rem;
+
+    text-align: left;
+}
+
+.book_header 
+{
+    font-size: 0;
+}
+
+/* .book_header
 {
     display: grid;
     grid-template-columns: 1fr 1fr;
@@ -29,12 +50,41 @@ body {
     font-size: 2em;
 
     height: fit-content;
+} */
+
+.book_image
+{
+    width: 100%;
+    object-fit: cover;
+    font-size: 0;
 }
 
 .contents
 {
     font-size: 0.8em;
     text-align: left;
+
+    /* background-color: #30333B; */
+    color: antiquewhite;
+
+    padding-left: 10%;
+    padding-right: 10%;
+
+    font-size: 200%;
+}
+
+.content_chapter
+{
+    background-color: #30333B;
+
+    border-color: white;
+    border-style: solid;
+    border-width: 2px;
+
+    margin-top: 0.5em;
+    padding: 1em;
+
+    text-align: center;
 }
 
 .author_picture
@@ -54,9 +104,10 @@ ol > li
 
 .book_author
 {
-    padding: 2%;
-    color: red;
-    font-size: 1.3em;
+    padding-top: 0.25em;
+    padding-bottom: 0.25em;
+    color: #F54B4B;
+    color: #EE2D2D;
 }
 
 
@@ -131,6 +182,11 @@ ol > li
 
     margin-top: 1.5em;
     text-indent: 2.2em;
+}
+
+.chapter > .first_paragraph
+{
+    margin-top: 1.0em;
 }
 
 /*  */
@@ -223,6 +279,11 @@ ol > li
     /* font-size: 0; */
 }
 
+.small_picture
+{
+    width: 30%;
+}
+
 .picture_description
 {
     padding: 0.5em 1em 0.5em 1em;
@@ -240,6 +301,12 @@ ol > li
     width: 100%; 
     height: auto; 
 }
+
+/* .small_picture > img
+{
+    width: 50%; 
+    height: auto; 
+} */
 
 table
 {
@@ -268,6 +335,13 @@ table
         float: none;
         margin: 1em -2% 1em -2%;
         width: auto;
+    }
+
+    .small_picture
+    {
+        margin-left: auto;
+        margin-right: auto;
+        width: 60%;
     }
 
     .to_left
