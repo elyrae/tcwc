@@ -14,14 +14,16 @@ body {
 /* ТИТУЛЬНАЯ СТРАНИЦА */
 .book_header_inner
 {    
+
     background-color: #424550;
     background-color: #30333B;
     color: antiquewhite;
 
     padding-left: 5%;
-    padding-top: 0.5em;
-    padding-bottom: 0.5em;
+    /* margin-top: 4em;
+    margin-bottom: 4em; */
 
+    width: 50%;
 
     font-size: 3rem;
 
@@ -30,7 +32,10 @@ body {
 
 .book_header 
 {
-    font-size: 0;
+    padding-top: 15em;
+    padding-bottom: 15em;
+    background-image: url("street1.png");
+    background-size: cover;
 }
 
 /* .book_header
@@ -361,6 +366,11 @@ table
     .small_header
     {
         font-size: 150%;
+    }
+
+    .book_header_inner
+    {
+        width: auto;
     }
     
 }
