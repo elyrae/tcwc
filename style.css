@@ -67,8 +67,7 @@ body {
     /* background-color: #30333B; */
     color: antiquewhite;
 
-    padding-left: 10%;
-    padding-right: 10%;
+    padding: 2em 10% 2em 10%;
 
     font-size: 200%;
 }
@@ -356,7 +355,7 @@ table
 
     .chapter > p {
         margin-top: 2.0em;
-        text-indent: 3.0em;
+        text-indent: 4.0em;
     }
 
     .small_header
