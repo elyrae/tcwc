@@ -408,4 +408,8 @@ table
         width: auto;
     }
     
+    .contents
+    {
+        padding: 1em 7.5% 1em 7.5%;
+    }
 }
