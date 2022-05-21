@@ -33,7 +33,7 @@ body
 
 .book_header 
 {
-    padding-top: 60vh;
+    padding-top: 50vh;
     /* padding-bottom: 15em; */
     background-image: url("pictures/book_header.jpg");
     background-size: cover;
@@ -42,7 +42,7 @@ body
 
     /* min-height: 50vh; */
     
-    height: 40vh;
+    height: 50vh;
 }
 
 .book_image
@@ -67,7 +67,7 @@ body
 
     padding: 1em 5% 1em 5%;
 
-    font-size: 175%;
+    font-size: 200%;
 }
 
 .content_box
@@ -75,6 +75,11 @@ body
     display: flex;
     flex-flow: column;
     height: 100%;
+}
+
+.content_box:hover
+{
+    transform: scale(1.025);
 }
 
 a:link
@@ -93,6 +98,8 @@ a:visited
 {
     font-size: 0;
 }
+
+
 
 .mini_chapter_image > img
 {
@@ -113,7 +120,7 @@ a:visited
     border-style: solid;
     border-width: 2px;
 
-    padding: 1em;
+    padding: 0.5em;
     /* margin-bottom: 2em; */
 
     text-align: center;
@@ -362,6 +369,13 @@ table
     .small_header
     {
         font-size: 150%;
+    }
+
+    .book_header
+    {
+        padding-top: 15em;
+        padding-bottom: 15em;
+        height: auto;
     }
 
     .book_header_inner
