@@ -388,5 +388,6 @@ table
     {
         grid-template-columns: 1fr;
         padding: 1em 5% 1em 5%;
+        font-size: 300%;
     }
 }
