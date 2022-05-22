@@ -159,12 +159,43 @@ ol > li
     padding-bottom: 0.25em;
 }
 
+.foreword 
+{
+    padding: 2em;
+
+    margin-left: 5%;
+    margin-right: 5%;
+
+    border-style: solid;
+    border-width: 1px;
+    border-color: white;
+
+    background-color: #30333B;
+    color: white;
+}
+
+.foreword_header
+{
+    font-size: 200%;
+
+    padding-bottom: 1em;
+
+    /* border-style: solid;
+    border-width: 1px;
+    border-color: white; */
+}
+
+.foreword_text
+{
+    font-size: 150%;
+    text-indent: 2em;
+}
 
 /* ОСНОВНАЯ ЧАСТЬ */
 /*  */
 .chapter_image
 {
-    margin: 4% 2% 0% 2%;
+    margin: 1% 2% 0% 2%;
     font-size: 0;
     background-color: #F4F4F4;
 
