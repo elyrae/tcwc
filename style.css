@@ -79,7 +79,8 @@ body
 
 .content_box:hover
 {
-    transform: scale(1.025);
+    transform: scale(1.01);
+    filter: brightness(50%);
 }
 
 a:link
