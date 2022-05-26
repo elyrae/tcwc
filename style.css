@@ -453,6 +453,11 @@ table
         width: auto;
     }
     
+    .chapter
+    {
+        font-size: 1.75em;
+    }
+
     .contents
     {
         grid-template-columns: 1fr;
