@@ -329,7 +329,7 @@ ol > li
     display: block;
     float: right;
     /* padding: 0.5%; */
-    margin: 1em 0 1em 1em;
+    margin: 1.5em 0 0.5em 1em;
 
     /* background-color: antiquewhite; */
     width: 50%;
@@ -343,6 +343,11 @@ ol > li
 .small_picture_40
 {
     width: 40%;
+}
+
+.small_picture_50
+{
+    width: 50%;
 }
 
 .full_picture
@@ -362,7 +367,7 @@ ol > li
 {
     float: left;
     margin: 2% 2% 1% 0%;
-    margin: 1.4em 1em 1em 0;
+    margin: 1.5em 1em 1em 0;
 }
 
 .picture > img
@@ -410,7 +415,7 @@ table
 
     .picture {
         float: none;
-        margin: 1em -2% 1em -2%;
+        margin: 1em -2% 0.5em -2%;
         width: auto;
     }
 
@@ -431,9 +436,9 @@ table
         width: auto;
     }
 
-    .chapter > p {
+    .chapter > .paragraph, .first_paragraph {
         margin-top: 2.0em;
-        text-indent: 4.0em;
+        text-indent: 3.0em;
     }
 
     .small_header
