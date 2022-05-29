@@ -271,7 +271,7 @@ ol > li
     /* word-spacing: 100%; */
 
     margin-top: 1.5em;
-    text-indent: 2.2em;
+    text-indent: 3em;
 }
 
 .chapter > .first_paragraph
@@ -446,7 +446,6 @@ table
 
     .chapter > .paragraph, .first_paragraph {
         margin-top: 2.0em;
-        text-indent: 3.0em;
     }
 
     .small_header
