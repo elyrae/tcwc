@@ -78,6 +78,19 @@ body
     filter: brightness(50%);
 }
 
+.full_box
+{
+    grid-column-start: 1;
+    grid-column-end:   3;
+}
+
+.full_box > img
+{
+    height: 400px;
+    object-fit: cover;
+    width: 100%;
+}
+
 a:link
 {
     color: antiquewhite;
@@ -475,5 +488,11 @@ table
         grid-template-columns: 1fr;
         padding: 1.33em 5% 1em 5%;
         font-size: 300%;
+    }
+
+    .full_box
+    {
+        grid-column-start: 1;
+        grid-column-end:   2;
     }
 }
