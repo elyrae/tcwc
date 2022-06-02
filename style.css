@@ -374,6 +374,7 @@ ol > li
 {
     font-size: 0.9em;
     padding: 0.5em 1em 0em 1em;
+    text-align: center;
 }
 
 .to_left
@@ -381,6 +382,11 @@ ol > li
     float: left;
     margin: 2% 2% 1% 0%;
     margin: 1.5em 1em 0.5em 0;
+}
+
+.picture_in_chapter
+{
+    margin-top: 0;
 }
 
 .picture > img
@@ -425,6 +431,21 @@ table
     margin-top: 1em;
     padding-top: 1em;
     padding-bottom: 0.5em;
+}
+
+.verse
+{
+    white-space: pre-line;
+    text-align: center;
+
+    margin-top: 1em;
+
+    background-color: black;
+    color: antiquewhite;
+
+    hyphens: none;
+    padding-bottom: 1em;
+    font-size: 1.05em;
 }
 
 @media only screen and (max-width: 1024px) {
@@ -494,5 +515,10 @@ table
     {
         grid-column-start: 1;
         grid-column-end:   2;
+    }
+
+    .verse
+    {
+        font-size: 0.95em;
     }
 }
