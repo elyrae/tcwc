@@ -20,6 +20,8 @@ body
     background-color: #30333B;
     color: antiquewhite;
 
+    /* text-shadow: 0 0 2px black; */
+
     padding-left: 5%;
 
     width: 50%;
@@ -71,7 +73,7 @@ body
     flex-flow: column;
     height: 100%;
 
-    transition: filter 0.2s, box-shadow 0.2s;
+    transition: filter 0.2s, box-shadow 0.2s, transform 0.2s;
 }
 
 .content_box:hover
@@ -80,7 +82,7 @@ body
     /* filter: brightness(50%); */
     filter: brightness(115%);
     box-shadow: 0px 0px 10px #B7B7B7;
-
+    /* transform: scale(1.01); */
 }
 
 .full_box
@@ -108,13 +110,13 @@ body
     width: 100%;
 }
 
-a:link
+.content_box:link
 {
     color: antiquewhite;
     text-decoration: none;
 }
 
-a:visited
+.content_box:visited
 {
     color: antiquewhite;
     text-decoration: none;
